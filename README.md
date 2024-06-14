@@ -1,3 +1,21 @@
+# Forked Repository
+
+This repository fork aims to enhance the capabilities of the original project by incorporating additional options for the `rsync` command.
+
+**Original Repository**: [@dmnemec/copy_file_to_another_repo_action](https://github.com/dmnemec/copy_file_to_another_repo_action)
+
+## Enhancements
+
+This fork builds upon the existing functionalities and extends them by introducing the following feature:
+
+```diff
++ rsync_option: [optional] Allows users to specify a custom set of options for `rsync`. This option is available only if `use_rsync: 'true'`.
+```
+
+See all [Variables](#variables)
+
+---
+
 # copy_file_to_another_repo_action
 This GitHub Action copies a file from the current repository to a location in another repository
 
